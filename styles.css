@@ -1,0 +1,54 @@
+@font-face {
+    font-family:Goofy;
+    src: url("Goofy.ttf");
+}
+#logo{
+    filter: invert();
+    width: 35px;
+    display: block;
+    margin: 0 auto;
+}
+.main{
+    margin: 0;
+}
+.content{
+    background-size: cover;
+    padding: 270px;
+    background-image: url("media/giphy.webp");
+    text-align: center;
+}
+.card{
+    justify-content: center;
+
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Montserrat",Arial, sans-serif;
+}
+.join{
+    background: white;
+    border-style: none;
+    padding: 5px 128px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.CTA{
+    border-bottom: 3px solid white;
+    color: inherit;
+    text-decoration: none;
+}
+.conditions{
+    height: 40px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+
+}
+#prank_text{
+    font-weight: 200;
+    font-size: 7px;
+}
